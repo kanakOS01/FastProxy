@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.116.1",
+    "httpx>=0.28.1",
 ]
 
 [dependency-groups]
@@ -16,7 +17,7 @@ dev = [
 [tool.ruff]
 line-length = 100
 indent-width = 4
-target-version = "py39"
+target-version = "py313"
 
 [tool.ruff.lint]
 select = [
